@@ -64,7 +64,7 @@ def signup():
         "email":email
     })
     if result != None:
-        return redirect("/error?msg=信箱已註冊過")
+        return redirect("/error?msg=信箱已註冊過QQ")
     
     collection.insert_one({
         "nickname":name,
